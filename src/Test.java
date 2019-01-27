@@ -3,8 +3,8 @@ import org.codehaus.jackson.map.ObjectMapper;
 public class Test {
 	public static void main(String[] args) {
 		Employee e=new Employee();
-		e.setEmpId(56);
-		e.setEmpName("AB");
+		e.setEmpId(55);
+		e.setEmpName("AA");
 		e.setEmpSal(66.36);
 		try {
 			ObjectMapper om=new ObjectMapper();
