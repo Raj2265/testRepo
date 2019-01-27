@@ -3,9 +3,9 @@ import org.codehaus.jackson.map.ObjectMapper;
 public class Test {
 	public static void main(String[] args) {
 		Employee e=new Employee();
-		e.setEmpId(100);
-		e.setEmpName("AAA");
-		e.setEmpSal(6600.36);
+		e.setEmpId(1000);
+		e.setEmpName("AAAA");
+		e.setEmpSal(66000.36);
 		try {
 			ObjectMapper om=new ObjectMapper();
 			String json=om.writeValueAsString(e);
